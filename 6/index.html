@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .wrap {
+            position: relative;
+        }
+        img, textarea {
+            position: absolute;
+        }
+        img {
+           z-index: 1;
+            width: 303px;
+            height: 306px;
+            background-color: #1da5fc;
+        }
+        textarea {
+            transition: 1s;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <img src="http://lh4.ggpht.com/nrNrI-mpolozU8SGzXEyZDRZvd2lsujq-2fbAhPT5ZK_H5P29rk4DNINhZCiJx9c8so0=w300" alt="">
+        <textarea name="" id="text" cols="40" rows="20"></textarea>
+    </div>
+    
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
